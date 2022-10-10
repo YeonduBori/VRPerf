@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: UdonPlayerTest
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 0600404726e4bcb4db071dcd3798def6,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    .export DebugMessage\r\n    \r\n    DebugMessage:
+    %SystemString, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi
+      uid: c0e74f2b-69be-4322-a90c-81c0d6466e4d
+      position: {x: 432.90524, y: 346.15753}
+      nodeUIDs: []
+      flowUIDs: []
+      nodeValues: []
+    - fullName: Variable_SystemString
+      uid: 3eeed18b-3064-4749-a7f5-b24609d0f9a5
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Test
+          Message for dongho5309 Test Message for dongho5309Test Message for dongho5309
+          Test Message for dongho5309Test Message for dongho5309 Test Message for
+          dongho5309Test Message for dongho5309 Test Message for dongho5309Test Message
+          for dongho5309 Test Message for dongho5309
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|DebugMessage
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Event_Interact
+      uid: 6b41f6a7-b6c9-4eab-aa0d-d9c0501c06d5
+      position: {x: 1177.025, y: 347.8175}
+      nodeUIDs: []
+      flowUIDs:
+      - 
+      nodeValues: []
+    updateOrder: 0
+  graphElementData:
+  - type: 5
+    uid: 6f475f62-14b3-42f5-8c5f-12a957009870
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":26.0,"y":188.0,"width":159.0,"height":104.0}}'
+  viewTransform:
+    position: {x: -148, y: 71}
+    scale: 1
+  version: 1.0.0
+  showAssembly: 1
