@@ -7,6 +7,7 @@ using VRC.Udon;
 
 public class CameraController : UdonSharpBehaviour
 {
+    public GameObject mainCamera;
     public GameObject[] managedObjects;
     public UdonBehaviour testUdonObject;
 
@@ -15,6 +16,11 @@ public class CameraController : UdonSharpBehaviour
     public override void Interact()
     {
         Debug.Log("Switch Camera");
+
+        if (!mainCamera.activeSelf)
+        {
+            mainCamera.SetActive(true);
+        }
 
         if (managedObjects.Length >= 2)
         {
