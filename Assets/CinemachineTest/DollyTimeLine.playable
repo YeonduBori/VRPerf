@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: 
   VirtualCamera:
-    exposedName: 
+    exposedName: 0634237688ca2404792d609cd762517c
     defaultValue: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -148,6 +148,6 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam3
+    m_DisplayName: Dolly CM vcam
   m_Markers:
     m_Objects: []
