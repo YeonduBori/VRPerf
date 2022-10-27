@@ -1,0 +1,11 @@
+Model Information:
+* title:	Estances de la Casa Gassia. Ecomuseu Valls Àneu
+* source:	https://sketchfab.com/3d-models/estances-de-la-casa-gassia-ecomuseu-valls-aneu-ffc6b346b10c447f9adae12ba1e950da
+* author:	Giravolt (https://sketchfab.com/giravolt)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Estances de la Casa Gassia. Ecomuseu Valls Àneu" (https://sketchfab.com/3d-models/estances-de-la-casa-gassia-ecomuseu-valls-aneu-ffc6b346b10c447f9adae12ba1e950da) by Giravolt (https://sketchfab.com/giravolt) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
