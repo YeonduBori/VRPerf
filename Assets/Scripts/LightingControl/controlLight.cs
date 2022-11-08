@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class controlLight : MonoBehaviour
 {    
+    public List<Light> light1;
+
     //Line1(SL*7, CL*4)
     Light SL_L1_no1;
     Light SL_L1_no2;
